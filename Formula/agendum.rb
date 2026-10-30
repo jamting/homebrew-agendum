@@ -23,6 +23,6 @@ class Agendum < Formula
   end
 
   test do
-    assert_match "agendum --demo", shell_output("#{bin}/agendum --help")
+    assert_match "Wol's Agendum #{version}", shell_output("#{bin}/agendum --version")
   end
 end

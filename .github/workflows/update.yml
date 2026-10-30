@@ -50,5 +50,5 @@ jobs:
     runs-on: macos-latest
     steps:
       - run: brew install jamting/agendum/agendum
-      - run: agendum --help | grep -q "agendum --demo"
+      - run: agendum --version | grep "^Wol's Agendum "
       - run: brew test jamting/agendum/agendum
