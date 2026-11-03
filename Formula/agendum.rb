@@ -6,9 +6,9 @@
 class Agendum < Formula
   desc "Lotus Agenda (1988) rebuilt: type a thought, and it files itself"
   homepage "https://github.com/jamting/agendum"
-  url "https://github.com/jamting/agendum/releases/download/v0.78.0/agendum"
-  version "0.78.0"
-  sha256 "5d3d832190160049acca93bbc93c43a4a07f6b9b0ba56fa24752164c52b27991"
+  url "https://github.com/jamting/agendum/releases/download/v0.89.0/agendum"
+  version "0.89.0"
+  sha256 "b05b0b8cfcc819d4e8be5d01de22d4eeb194fbfff6ee03832568481c0c1aadb7"
   license "AGPL-3.0-only"
 
   depends_on "erlang"
